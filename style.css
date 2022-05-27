@@ -20,10 +20,12 @@ header {
   align-items: center;
 }
 
-header h2 {
+header a {
   color: #6070ff;
   font-size: 1.5rem;
   padding: 0 40px;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 nav {
