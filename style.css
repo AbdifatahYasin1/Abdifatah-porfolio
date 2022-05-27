@@ -1,87 +1,86 @@
 
 body html {
-    box-sizing: border-box;
-  }
-  
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h2 {
+  color: #6070ff;
+  font-size: 1.5rem;
+  padding: 0 40px;
+}
+
+nav {
+  margin: 0 auto;
+}
+
+/* section */
+
+.headline-section {
+  color: #091e42;
+  max-width: 500px;
+  margin: 0 auto;
+  background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhammaazarok%2Fportfolio%2Fmaster%2Fimg%2Fbg.png);
+  background-repeat: no-repeat;
+  background-position: left right;
+  padding: 40px 30px;
+  text-align: left;
+}
+
+.headline-section h1 {
+  margin: 10px;
+  color: #091e42;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.headline-section p {
+  color: #344563;
+  margin: 5px;
+  text-align: left;
+  padding: 0 5px;
+}
+
+.social-icon {
+  display: flex;
+  padding: 10px;
+  color: #505f79;
+}
+
+.social-icons i {
+  margin: 5px;
+}
+
+.btn {
+  border: none;
+  background-color: #fff;
+  color: #6070ff;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
   body {
-    font-family: Poppins, sans-serif;
     width: 100%;
     height: 100vh;
-    margin: 0;
-    padding: 0;
   }
-  
-  /* Header */
-  header {
-    display: flex;
-    max-width: 500px;
-    margin: 0 auto;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  header h2 {
-    color: #6070ff;
-    font-size: 1.5rem;
-    padding: 0 40px;
-  }
-  
-  nav {
-    margin: 0 auto;
-  }
-  
-  /* section */
-  
-  .headline-section {
-    color: #091e42;
-    max-width: 500px;
-    margin: 0 auto;
-    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhammaazarok%2Fportfolio%2Fmaster%2Fimg%2Fbg.png);
-    background-repeat: no-repeat;
-    background-position: left right;
-    padding: 40px 30px;
-    text-align: left;
-  }
-  
-  .headline-section h1 {
-    margin: 10px;
-    color: #091e42;
-    font-weight: 800;
-    font-size: 2rem;
-  }
-  
-  .headline-section p {
-    color: #344563;
-    margin: 5px;
-    text-align: left;
-    padding: 0 5px;
-  }
-  
-  .social-icon {
-    display: flex;
-    padding: 10px;
-    color: #505f79;
-  }
-  
-  .social-icons i {
-    margin: 5px;
-  }
-  
-  .btn {
-    border: none;
-    background-color: #fff;
-    color: #6070ff;
-    font-size: 30px;
-  }
-  
-  @media only screen and (max-width: 768px) {
-    body {
-      width: 100%;
-      height: 100vh;
-    }
-  }
-  
-  #text {
-    color: #7f8cff;
-  }
-  
+}
+
+#text {
+  color: #7f8cff;
+}
