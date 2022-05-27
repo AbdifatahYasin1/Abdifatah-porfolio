@@ -43,7 +43,6 @@ nav {
   background-position: left right;
   padding: 40px 30px;
   text-align: right left;
-  
 }
 
 .headline-section h1 {
@@ -58,31 +57,20 @@ nav {
   color: #344563;
   width: 60%;
   margin: 10px;
-  
 }
 
 ul {
-  
   padding: 10px;
   color: #505f79;
   width: 60%;
   display: flex;
-  
   list-style-type: none;
-  
-
-  
 }
 
-ul li
-{
+ul li {
   padding: 5px;
   margin-right: 10px;
-  
-  
 }
-
-
 
 .btn {
   border: none;
@@ -102,5 +90,3 @@ ul li
 #text {
   color: #7f8cff;
 }
-
-
