@@ -88,7 +88,7 @@ nav {
   }
 }
 
-#text {
+.text {
   color: #7f8cff;
 }
 
@@ -117,7 +117,7 @@ nav {
   margin: 10px;
 }
 
-#big-button {
+.big-button {
   padding: 10px;
   border-radius: 8px;
   color: #396df2;
@@ -164,7 +164,7 @@ li .list-container-2 {
   margin-left: 13;
 }
 
-#canopy {
+.canopy {
   color: #344563;
   text-transform: uppercase;
   font-weight: bold;
