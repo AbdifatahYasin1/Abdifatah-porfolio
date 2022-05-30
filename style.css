@@ -133,7 +133,7 @@ nav {
 .list-container-1 {
   color: #505f79;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 70%;
   margin: 10px;
   list-style-type: none;
@@ -141,9 +141,9 @@ nav {
 
 .list-container-1 img {
   border-radius: 50%;
-  width: 10px;
-  height: 10px;
-  margin: 10px;
+  width: 8px;
+  height: 8px;
+  margin: 3px;
 }
 
 .list-container-2 {
@@ -155,7 +155,7 @@ nav {
   width: 60%;
 }
 
-li .list-container-2 {
+.list-container-2 li {
   background-color: #ebebff;
   border-radius: 12%;
   padding: 7px;
@@ -179,11 +179,12 @@ li .list-container-2 {
 }
 
 .about-myself h1 {
-  margin: 10px;
-  color: #091e42;
-  font-weight: 800;
+  color: #172b4d;
+  font-weight: bold;
   font-size: 2rem;
   width: 30%;
+  margin: 10px;
+  margin-top: 10px;
 }
 
 .about-myself p {
@@ -218,4 +219,14 @@ li .list-container-2 {
 .about-myself h4 {
   width: 80%;
   margin: 25px;
+}
+
+.down-arrow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.down-arrow i {
+  color: #505f79;
+  margin-left: 100px;
 }
