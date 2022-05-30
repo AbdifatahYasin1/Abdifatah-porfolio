@@ -92,13 +92,11 @@ nav {
   color: #7f8cff;
 }
 
-/*work section*/
 .work-section {
   color: #091e42;
   max-width: 500px;
   margin: 0 auto;
   padding: 40px 30px;
-  /* text-align: right left; */
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 50px;
@@ -118,6 +116,7 @@ nav {
   width: 60%;
   margin: 10px;
 }
+
 #big-button {
   padding: 10px;
   border-radius: 8px;
@@ -139,6 +138,7 @@ nav {
   margin: 10px;
   list-style-type: none;
 }
+
 .list-container-1 img {
   border-radius: 50%;
   width: 10px;
@@ -147,16 +147,15 @@ nav {
 }
 
 .list-container-2 {
-  color: #505f79;
   display: flex;
   justify-content: space-between;
-
   list-style-type: none;
   color: #6070ff;
   padding: 10px;
   width: 60%;
 }
-.list-container-2 li {
+
+li .list-container-2 {
   background-color: #ebebff;
   border-radius: 12%;
   padding: 7px;
@@ -164,14 +163,13 @@ nav {
   margin: 10px;
   margin-left: 13;
 }
+
 #canopy {
   color: #344563;
   text-transform: uppercase;
   font-weight: bold;
-  /* list-style-type: none; */
 }
 
-/*about my self*/
 .about-myself {
   color: #091e42;
   max-width: 500px;
@@ -212,7 +210,6 @@ nav {
   color: #396df2;
   padding: 15px;
   border-radius: 8px;
-  background-color: #fff;
   background-color: #fff;
   border: 1px solid #6070ff;
   font-weight: bold;
