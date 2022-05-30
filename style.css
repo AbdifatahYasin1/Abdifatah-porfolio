@@ -155,7 +155,7 @@ nav {
   width: 60%;
 }
 
-.list-container-2 li {
+li .list-container-2 {
   background-color: #ebebff;
   border-radius: 12%;
   padding: 7px;
