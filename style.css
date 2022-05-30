@@ -200,10 +200,22 @@ nav {
   margin-left: 100px;
 }
 
+.space {
+  margin-bottom: 30px;
+}
+
 #text-color {
   color: #396df2;
 }
 
 .below-button {
   width: 40%;
+}
+
+.frames {
+  color: #172b4d;
+  width: 60%;
+  margin: 10px;
+  margin-top: 10px;
+  text-align: right left;
 }
